@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  margin: 4px;
+  padding: 4px;
+}
+
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
